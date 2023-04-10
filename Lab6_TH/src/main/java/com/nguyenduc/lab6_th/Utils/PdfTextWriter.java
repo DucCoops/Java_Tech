@@ -1,6 +1,6 @@
-package com.iiex.lab6_th.Utils;
+package com.nguyenduc.lab6_th.Utils;
 
-import com.iiex.lab6_th.Repository.TextWriter;
+import com.nguyenduc.lab6_th.Repository.TextWriter;
 import org.springframework.stereotype.Component;
 
 @Component

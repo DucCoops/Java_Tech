@@ -1,4 +1,4 @@
-package com.iiex.lab6_th.Utils;
+package com.nguyenduc.lab6_th.Utils;
 
 import org.springframework.stereotype.Component;
 

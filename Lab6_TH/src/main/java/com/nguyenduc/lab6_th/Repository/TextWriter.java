@@ -1,4 +1,4 @@
-package com.iiex.lab6_th.Repository;
+package com.nguyenduc.lab6_th.Repository;
 
 public interface TextWriter {
     void write(String fileName, String text);

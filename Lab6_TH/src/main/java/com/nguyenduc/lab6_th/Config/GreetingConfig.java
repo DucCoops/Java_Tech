@@ -1,6 +1,6 @@
-package com.iiex.lab6_th.Config;
+package com.nguyenduc.lab6_th.Config;
 
-import com.iiex.lab6_th.Utils.GreetingService;
+import com.nguyenduc.lab6_th.Utils.GreetingService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

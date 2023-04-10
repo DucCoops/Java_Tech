@@ -1,4 +1,4 @@
-package com.iiex.lab6_th;
+package com.nguyenduc.lab6_th;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,11 +1,11 @@
-package com.iiex.lab6_th;
+package com.nguyenduc.lab6_th;
 
-import com.iiex.lab6_th.Config.AppConfig;
-import com.iiex.lab6_th.Config.GreetingConfig;
-import com.iiex.lab6_th.Config.TextEditorConfig;
-import com.iiex.lab6_th.Model.Product;
-import com.iiex.lab6_th.Utils.GreetingService;
-import com.iiex.lab6_th.Utils.TextEditor;
+import com.nguyenduc.lab6_th.Config.AppConfig;
+import com.nguyenduc.lab6_th.Config.GreetingConfig;
+import com.nguyenduc.lab6_th.Config.TextEditorConfig;
+import com.nguyenduc.lab6_th.Model.Product;
+import com.nguyenduc.lab6_th.Utils.GreetingService;
+import com.nguyenduc.lab6_th.Utils.TextEditor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -46,7 +46,7 @@ public class Lab6ThApplication {
         System.out.println("Exerci3-4:");
         context = new AnnotationConfigApplicationContext(TextEditorConfig.class);
         TextEditor textEditor = context.getBean(TextEditor.class);
-        textEditor.input("input cai gi ne");
+        textEditor.input("input");
         textEditor.save("docs.txt");
 
         System.out.println("Exercie5: ");

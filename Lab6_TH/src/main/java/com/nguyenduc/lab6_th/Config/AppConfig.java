@@ -1,6 +1,6 @@
-package com.iiex.lab6_th.Config;
+package com.nguyenduc.lab6_th.Config;
 
-import com.iiex.lab6_th.Model.Product;
+import com.nguyenduc.lab6_th.Model.Product;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;

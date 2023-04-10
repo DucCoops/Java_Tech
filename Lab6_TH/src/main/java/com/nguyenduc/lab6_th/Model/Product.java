@@ -1,4 +1,4 @@
-package com.iiex.lab6_th.Model;
+package com.nguyenduc.lab6_th.Model;
 
 public class Product {
     private int id;
@@ -12,17 +12,6 @@ public class Product {
         this.price = price;
         this.description = description;
     }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", description='" + description + '\'' +
-                '}';
-    }
-
     public Product() {
     }
 
@@ -56,5 +45,15 @@ public class Product {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", description='" + description + '\'' +
+                '}';
     }
 }
